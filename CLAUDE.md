@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-PaiCoding (技术派) is a comprehensive community system built with Spring Boot, MyBatis-Plus, MySQL, Redis, ElasticSearch, MongoDB, Docker, and RabbitMQ. It's a modern social platform for technical content sharing with article publishing, search, comments, and user interaction features.
+PaiCoding (CodeHive) is a comprehensive community system built with Spring Boot, MyBatis-Plus, MySQL, Redis, ElasticSearch, MongoDB, Docker, and RabbitMQ. It's a modern social platform for technical content sharing with article publishing, search, comments, and user interaction features.
 
 ## Architecture
 

@@ -23,7 +23,7 @@ public enum UserAiStrategyEnum {
      * 第0位： = 1 表示已绑定微信公众号
      * 第1位： = 1 表示绑定了邀请用户
      * 第2位： = 1 表示绑定了java星球
-     * 第3位： = 1 表示绑定了技术派星球
+     * 第3位： = 1 表示绑定了CodeHive星球
      */
     private Integer condition;
 

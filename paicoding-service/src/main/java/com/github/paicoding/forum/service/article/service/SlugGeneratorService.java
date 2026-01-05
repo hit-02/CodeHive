@@ -122,7 +122,7 @@ public class SlugGeneratorService {
                 "- 总长度控制在2-3个单词内\n" +
                 "- 只返回slug，无任何解释\n\n" +
                 "特殊词汇映射：\n" +
-                "- 技术派 => paicoding\n" +
+                "- CodeHive => paicoding\n" +
                 "- 派聪明 => paismart\n\n" +
                 "示例：\n" +
                 "沉默王二的Java教程 => java-tutorial\n" +
@@ -130,7 +130,7 @@ public class SlugGeneratorService {
                 "深入理解JVM虚拟机原理 => jvm-principle\n" +
                 "Redis性能优化技巧分享 => redis-optimization\n" +
                 "沉默王二很牛逼，我要引流了 => traffic-guide\n" +
-                "技术派社区使用指南 => paicoding-guide\n" +
+                "CodeHive社区使用指南 => paicoding-guide\n" +
                 "派聪明AI助手介绍 => paismart-intro\n\n" +
                 "标题：" + title + "\n" +
                 "Slug：";

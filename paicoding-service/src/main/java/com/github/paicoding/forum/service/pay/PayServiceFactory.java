@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * 技术派的支付服务接口
+ * CodeHive的支付服务接口
  *
  * @author YiHui
  * @date 2024/12/9

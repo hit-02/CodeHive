@@ -104,7 +104,7 @@ public class WxCallbackRestController {
             return loginOcPai(msg);
         }
 
-        // 执行技术派登录、用户响应问答的场景
+        // 执行CodeHive登录、用户响应问答的场景
         BaseWxMsgResVo res = wxHelper.buildResponseBody(msg.getEvent(), code, msg.getFromUserName());
         fillResVo(res, msg);
         return res;
@@ -146,7 +146,7 @@ public class WxCallbackRestController {
 
 
     /**
-     * oc使用的和技术派是同一个微信公众号进行授权登录，按照验证码的位数进行区分；我们在这里做一个路由转发
+     * oc使用的和CodeHive是同一个微信公众号进行授权登录，按照验证码的位数进行区分；我们在这里做一个路由转发
      *
      * @return
      */

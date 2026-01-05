@@ -2,7 +2,7 @@
 <html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <div th:replace="components/layout/header :: head(~{::title}, ~{}, ~{})">
     <title th:text="${global.siteInfo.websiteName}">
-        排行榜 | 技术派
+        排行榜 | CodeHive
     </title>
 </div>
 
@@ -38,7 +38,7 @@
                                     <a th:href="'/user/' + ${item.user.userId}" target="_blank">
                                         <div class="username author-username"><span class="name"
                                                                                     style="max-width: 128px;"
-                                                                                    th:text="${item.user.name}">技术派</span>
+                                                                                    th:text="${item.user.name}">CodeHive</span>
                                         </div>
                                         <div class="author-text"
                                              th:text="${!#strings.isEmpty(item.user.profile) ? item.user.profile: '这个人很懒，没有留下介绍~'} ">

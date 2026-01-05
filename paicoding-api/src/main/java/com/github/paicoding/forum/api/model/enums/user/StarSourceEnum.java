@@ -17,7 +17,7 @@ public enum StarSourceEnum {
      */
     JAVA_GUIDE(1),
     /**
-     * 技术派
+     * CodeHive
      */
     TECH_PAI(2),
     ;

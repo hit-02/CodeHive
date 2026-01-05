@@ -10,7 +10,7 @@ import com.github.paicoding.forum.service.user.service.help.UserSessionHelper;
 import org.springframework.stereotype.Service;
 
 /**
- * 静默登录的开放平台接口（授权的第三方平台，可以根据用户技术派的TOKEN来获取用户信息，实现静默登录）
+ * 静默登录的开放平台接口（授权的第三方平台，可以根据用户CodeHive的TOKEN来获取用户信息，实现静默登录）
  *
  * @author YiHui
  * @date 2025/9/15
@@ -27,7 +27,7 @@ public class OpenApiSilentLoginService {
     }
 
     /**
-     * 使用技术派的Token换取用户信息，从而实现静默登录
+     * 使用CodeHive的Token换取用户信息，从而实现静默登录
      *
      * @param session
      * @return

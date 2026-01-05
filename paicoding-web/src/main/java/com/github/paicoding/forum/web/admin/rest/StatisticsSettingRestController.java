@@ -56,7 +56,7 @@ public class StatisticsSettingRestController {
         response.reset();
         response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
         response.setCharacterEncoding("utf-8");
-        String fileName = URLEncoder.encode("技术派", "UTF-8").replaceAll("\\+", "%20");
+        String fileName = URLEncoder.encode("CodeHive", "UTF-8").replaceAll("\\+", "%20");
         response.setHeader("Content-disposition", "attachment;filename*=utf-8''" + fileName + ".xlsx");
 
         // 获取数据

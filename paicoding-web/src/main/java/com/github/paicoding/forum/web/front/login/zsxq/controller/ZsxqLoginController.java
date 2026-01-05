@@ -45,7 +45,7 @@ public class ZsxqLoginController {
     /**
      * 用户信息绑定
      *
-     * @param useXqName true 表示使用星球的昵称/头像来更新技术派的用户信息
+     * @param useXqName true 表示使用星球的昵称/头像来更新CodeHive的用户信息
      * @return
      */
     @RequestMapping("zsxq/bind")

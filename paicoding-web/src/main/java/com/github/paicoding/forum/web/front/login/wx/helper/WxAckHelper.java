@@ -64,13 +64,13 @@ public class WxAckHelper {
         else if ("加群".equalsIgnoreCase(content)) {
             WxImgTxtItemVo imgTxt = new WxImgTxtItemVo();
             imgTxt.setTitle("扫码加群");
-            imgTxt.setDescription("加入技术派的技术交流群，卷起来！");
+            imgTxt.setDescription("加入CodeHive的技术交流群，卷起来！");
             imgTxt.setPicUrl("https://mmbiz.qpic.cn/mmbiz_jpg/sXFqMxQoVLGOyAuBLN76icGMb2LD1a7hBCoialjicOMsicvdsCovZq2ib1utmffHLjVlcyAX2UTmHoslvicK4Mg71Kyw/0?wx_fmt=jpeg");
             imgTxt.setUrl("https://mp.weixin.qq.com/s/aY5lkyKjLHWSUuEf1UT2yQ");
             imgTxtList = Arrays.asList(imgTxt);
         } else if ("admin".equalsIgnoreCase(content) || "后台".equals(content) || "002".equals(content)) {
             // admin后台登录，返回对应的用户名 + 密码
-            textRes = "技术派后台游客登录账号\n-----------\n登录用户名: guest\n登录密码: 123456";
+            textRes = "CodeHive后台游客登录账号\n-----------\n登录用户名: guest\n登录密码: 123456";
         } else if ("商务合作".equalsIgnoreCase(content)) {
             textRes = "商务合作（非诚勿扰）：请添加二哥微信 qing_geee 备注\"商务合作\"'";
         }
@@ -78,9 +78,9 @@ public class WxAckHelper {
         else if (CodeGenerateUtil.isVerifyCode(content)) {
             sessionService.autoRegisterWxUserInfo(fromUser);
             if (qrLoginHelper.login(content)) {
-                textRes = "登录成功，开始愉快的玩耍技术派吧！\n\n" +
-                        "🎉 欢迎来到技术派！\n" +
-                        "👉 <a href=\"https://paicoding.com\">访问技术派官网</a> 👈\n\n" +
+                textRes = "登录成功，开始愉快的玩耍CodeHive吧！\n\n" +
+                        "🎉 欢迎来到CodeHive！\n" +
+                        "👉 <a href=\"https://paicoding.com\">访问CodeHive官网</a> 👈\n\n" +
                         "在这里你可以：\n" +
                         "• 发布技术文章，分享你的经验\n" +
                         "• 学习优质内容，提升技术能力\n" +
@@ -91,7 +91,7 @@ public class WxAckHelper {
         } else {
             textRes = "/:? 还在找其它资料么？\n" +
                     "\n" +
-                    "[机智] 添加二哥的微信 itwanger 后，微信回复 “110”，即可获得 10 本校招/社招必刷八股文，以及技术派团队的原创手册《高并发手册》、《Spring 源码解析手册》、《设计模式手册》、《JVM 核心手册》、《Java 并发编程手册》、《架构选型手册》，工作面试两不误，工作面试两不误。\n" +
+                    "[机智] 添加二哥的微信 itwanger 后，微信回复 “110”，即可获得 10 本校招/社招必刷八股文，以及CodeHive团队的原创手册《高并发手册》、《Spring 源码解析手册》、《设计模式手册》、《JVM 核心手册》、《Java 并发编程手册》、《架构选型手册》，工作面试两不误，工作面试两不误。\n" +
                     "\n" +
                     "商务合作/技术交流群：请添加二哥微信 itwanger";
         }

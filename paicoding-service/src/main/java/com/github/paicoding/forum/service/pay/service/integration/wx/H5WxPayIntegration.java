@@ -64,7 +64,7 @@ public class H5WxPayIntegration extends AbsWxPayIntegration {
         SceneInfo sceneInfo = new SceneInfo();
         sceneInfo.setPayerClientIp(ReqInfoContext.getReqInfo().getClientIp());
         H5Info h5Info = new H5Info();
-        h5Info.setAppName("技术派");
+        h5Info.setAppName("CodeHive");
         h5Info.setAppUrl("https://paicoding.com");
         h5Info.setType("PC");
         sceneInfo.setH5Info(h5Info);

@@ -169,7 +169,7 @@ https://medium.com/@username/article-title-123abc
 https://dev.to/username/article-title-123
 ```
 
-**技术派最终方案**:
+**CodeHive最终方案**:
 ```
 https://paicoding.com/article/detail/123/spring-boot-tutorial
 ```

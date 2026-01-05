@@ -47,6 +47,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.30</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
                 <groupId>com.github.paicoding.forum</groupId>
                 <artifactId>paicoding-api</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
@@ -142,7 +148,6 @@
                 <version>${knife4j.version}</version>
             </dependency>
 
-            <!-- 引入 MapStruct -->
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>

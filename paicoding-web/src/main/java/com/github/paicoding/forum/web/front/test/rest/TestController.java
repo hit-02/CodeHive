@@ -90,10 +90,10 @@ public class TestController {
             return ResVo.fail(Status.newStatus(StatusEnum.ILLEGAL_ARGUMENTS_MIXED, "非法的邮箱接收人"));
         }
         if (StringUtils.isBlank(req.getTitle())) {
-            req.setTitle("技术派的测试邮件发送");
+            req.setTitle("CodeHive的测试邮件发送");
         }
         if (StringUtils.isBlank(req.getContent())) {
-            req.setContent("技术派的测试发送内容");
+            req.setContent("CodeHive的测试发送内容");
         } else {
             // 测试邮件内容，不支持发送邮件正文，避免出现垃圾情况
             req.setContent(StringEscapeUtils.escapeHtml4(req.getContent()));

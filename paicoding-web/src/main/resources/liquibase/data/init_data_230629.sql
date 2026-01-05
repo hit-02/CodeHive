@@ -7,7 +7,7 @@ insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('A
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('AISource','0','chatGpt3.5',1);
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('AISource','1','chatGpt4',2);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('AISource','2','技术派',3);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('AISource','2','CodeHive',3);
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('AISource','3','讯飞',4);
 
 
@@ -16,7 +16,7 @@ insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('L
 
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','0','Java进阶之路知识星球',1);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','1','技术派知识星球',2);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','1','CodeHive知识星球',2);
 
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAIStat','-1','默认',1);
@@ -29,7 +29,7 @@ insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('U
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','1','绑定微信公众号',1);
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','2','绑定邀请人',2);
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','4','绑定Java进阶之路知识星球',3);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','8','绑定技术派知识星球',4);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','8','绑定CodeHive知识星球',4);
 
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('ChatAnswerType','0','文本返回',1);

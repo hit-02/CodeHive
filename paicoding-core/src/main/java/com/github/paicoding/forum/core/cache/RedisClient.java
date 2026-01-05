@@ -43,7 +43,7 @@ public class RedisClient {
     }
 
     /**
-     * 技术派的缓存值序列化处理
+     * CodeHive的缓存值序列化处理
      *
      * @param val
      * @param <T>
@@ -59,7 +59,7 @@ public class RedisClient {
     }
 
     /**
-     * 生成技术派的缓存key
+     * 生成CodeHive的缓存key
      *
      * @param key
      * @return

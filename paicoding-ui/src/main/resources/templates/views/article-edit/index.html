@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <div th:replace="components/layout/header :: head(~{::title}, ~{}, ~{})">
-  <title th:text="${global.siteInfo.websiteName}">技术派 - 文章发表</title>
+  <title th:text="${global.siteInfo.websiteName}">CodeHive - 文章发表</title>
 </div>
 
 <link rel="stylesheet" href="/editormd/css/editormd.css" th:href="${global.siteInfo.oss + '/editormd/css/editormd.css'}" />
@@ -170,7 +170,7 @@
               <h5 style="margin-left: 4em;font-size: 1.2em;color: #363645">微信支付说明:</h5>
               <ul style="margin-left: 6em">
                 <li  style="list-style-type: circle;">通过微信扫一扫实现文章付费，系统自动判断支付成功失败；</li>
-                <li  style="list-style-type: circle;">用户支付金额先汇总到技术派账号，后台再统一给作者进行分账</li>
+                <li  style="list-style-type: circle;">用户支付金额先汇总到CodeHive账号，后台再统一给作者进行分账</li>
               </ul>
             </div>
           </div>

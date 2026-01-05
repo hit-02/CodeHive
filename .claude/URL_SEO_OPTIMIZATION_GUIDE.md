@@ -2,7 +2,7 @@
 
 ## 📋 项目概述
 
-将技术派的文章URL从数字ID格式 `/article/detail/2528300004456450` 优化为语义化格式 `/article/2528300004456450/spring-boot-tutorial`,以提升SEO效果,同时保证向后兼容性。
+将CodeHive的文章URL从数字ID格式 `/article/detail/2528300004456450` 优化为语义化格式 `/article/2528300004456450/spring-boot-tutorial`,以提升SEO效果,同时保证向后兼容性。
 
 ## ✅ 已完成工作 (70%)
 

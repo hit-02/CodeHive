@@ -14,7 +14,7 @@ public class MdcUtil {
     }
 
     public static void addTraceId() {
-        // traceId的生成规则，技术派提供了两种生成策略，可以使用自定义的也可以使用SkyWalking; 实际项目中选择一种即可
+        // traceId的生成规则，CodeHive提供了两种生成策略，可以使用自定义的也可以使用SkyWalking; 实际项目中选择一种即可
         MDC.put(TRACE_ID_KEY, SelfTraceIdGenerator.generate());
     }
 

@@ -1,14 +1,14 @@
 INSERT INTO article
 (id, user_id, article_type, title, short_title, picture, summary, category_id, source, source_url, status, deleted)
-VALUES(1, 1, 1, '技术派全方位视角解读', '关于技术派', '', '技术派的使用说明介绍', 1, 2, '', 1, 0);
+VALUES(1, 1, 1, 'CodeHive全方位视角解读', '关于CodeHive', '', 'CodeHive的使用说明介绍', 1, 2, '', 1, 0);
 
 
 INSERT INTO article_detail
 (article_id, version, content)
-VALUES(1, 2, '技术派
+VALUES(1, 2, 'CodeHive
 ---
 
-技术派是一个基于SpringBoot实现完全开源的技术论坛社区
+CodeHive是一个基于SpringBoot实现完全开源的技术论坛社区
 
 
 ## 本地部署教程

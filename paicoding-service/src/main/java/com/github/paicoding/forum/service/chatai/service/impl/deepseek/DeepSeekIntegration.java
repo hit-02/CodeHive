@@ -50,7 +50,7 @@ public class DeepSeekIntegration {
 
     /**
      * 一次性返回的交互方式
-     * todo 待实现； 目前技术派主推流式交互，暂无下面的应用场景，留待有缘人补全
+     * todo 待实现； 目前CodeHive主推流式交互，暂无下面的应用场景，留待有缘人补全
      */
     public boolean directReturn(ChatItemVo item) {
         return false;

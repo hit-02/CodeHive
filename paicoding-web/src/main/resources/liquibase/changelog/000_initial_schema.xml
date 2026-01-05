@@ -38,7 +38,7 @@
         <sqlFile dbms="mysql" endDelimiter=";" encoding="UTF-8" path="liquibase/data/update_schema_230103.sql"/>
     </changeSet>
 
-    <!-- 技术派介绍文章 -->
+    <!-- CodeHive介绍文章 -->
     <changeSet id="00000000000009" author="YiHui">
         <sqlFile dbms="mysql" endDelimiter=";" encoding="UTF-8" path="liquibase/data/init_data_230103.sql"/>
     </changeSet>

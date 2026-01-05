@@ -7,7 +7,7 @@ SET @user_id = LAST_INSERT_ID();
 INSERT INTO user_info
 (user_id, user_name, photo, `position`, company, profile, user_role, extend, ip)
 VALUES (@user_id, '杠精机器人', 'https://cdn.tobebetterjavaer.com/paicoding/e0f01d775d3f67b309b394bc04d4e091.jpg',
-        '职业杠精AI', '技术派', 'AIBot', 0, '', '{}');
+        '职业杠精AI', 'CodeHive', 'AIBot', 0, '', '{}');
 
 
 -- 评论长度调整，最大支持1024

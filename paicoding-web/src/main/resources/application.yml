@@ -8,6 +8,13 @@ server:
     min-response-size: 2KB
 
 spring:
+  profiles:
+    active: dev
+  datasource:
+    username: root
+    password: 20021109justdoit   # 👈 只有这里需要改，填你的密码！
+    url: jdbc:mysql://localhost:3306/paicoding?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
   devtools:
     restart:
       enabled: true
@@ -33,7 +40,7 @@ spring:
       request-timeout:
   liquibase:
     change-log: classpath:liquibase/master.xml
-    enabled: true # 当实际使用的数据库不支持liquibase，如 mariadb 时，将这个参数设置为false
+    enabled: false # 当实际使用的数据库不支持liquibase，如 mariadb 时，将这个参数设置为false
   servlet:
     multipart:
       enabled: true
@@ -80,7 +87,7 @@ knife4j:
   setting:
     language: zh-CN
   openapi:
-    title: 技术派
+    title: CodeHive
     description: 一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目👍 。
     version: 1.0.0
     concat:

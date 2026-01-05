@@ -122,7 +122,7 @@ public abstract class AbsWxPayIntegration implements ThirdPayIntegrationApi {
 
     /**
      * 微信退款回调
-     * - 技术派目前没有实现退款流程，下面只是实现了回调，没有具体的业务场景
+     * - CodeHive目前没有实现退款流程，下面只是实现了回调，没有具体的业务场景
      *
      * @param request
      * @return
